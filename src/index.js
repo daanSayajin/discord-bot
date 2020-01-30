@@ -29,7 +29,7 @@ client.on('message', async message => {
         musicPlayer.stop(message)
 
     else if (message.content.startsWith('!fila'))
-        musicPlayer.fila(message)
+        musicPlayer.queue(message)
         
     else if (message.content.startsWith('!limpar')) 
         clear(message)
