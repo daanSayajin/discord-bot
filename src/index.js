@@ -28,11 +28,15 @@ client.on('message', async message => {
     else if (message.content.startsWith('!parar')) 
         musicPlayer.stop(message)
 
+    else if (message.content.startsWith('!fila'))
+        musicPlayer.fila(message)
+        
     else if (message.content.startsWith('!limpar')) 
         clear(message)
 
     else if (message.content.startsWith('!buscar'))
         search(message)
+
 })
 
 async function search(message) {
