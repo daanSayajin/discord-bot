@@ -3,7 +3,7 @@
 Bot para Discord desenvolvido em NodeJS utilizando a biblioteca [Discord.JS](https://github.com/discordjs/discord.js/)
 
 
-## Functions
+## Funcionalidades
 - **!limpar** : Limpa o chat
 - **!buscar ?** : Busca uma imagem aleatória no Google de acordo com o parâmetro enviado
 - **!tocar ?** : Toca um vídeo do Youtube no canal de voz atual de acordo com o parâmetro enviado. É aceito link do vídeo, nome do vídeo ou link de playlist
