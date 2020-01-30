@@ -123,7 +123,7 @@ class MusicPlayer {
         this.serverQueue = this.queue.get(message.guild.id)
     }
 
-    fila(message) {
+    queue(message) {
         const songs = this.serverQueue.songs.reduce((acc, song, i) => `${acc}"${song.title}"${i === 0 ? ' { Tocando agora }' : ''}\n`, '')
         return message.channel.send(`\`\`\`js\n▶️ As músicas na fila são: \n${songs}Digite !pular para pular a música que está tocando agora!\`\`\``)
     }
